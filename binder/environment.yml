@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+dependencies:
+  - xarray
+  - distributed
+  - dask-kubenetes
+  - gcsfs
+  - zarr
+  - geoviews
