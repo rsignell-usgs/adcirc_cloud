@@ -4,7 +4,7 @@ channels:
 dependencies:
   - xarray
   - distributed
-  - dask-kubenetes
+  - dask-kubernetes
   - gcsfs
   - zarr
   - geoviews
