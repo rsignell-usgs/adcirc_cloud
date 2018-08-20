@@ -4,8 +4,9 @@ channels:
 dependencies:
   - xarray
   - distributed
-  - dask-kubernetes
-  - kubernetes
   - gcsfs
   - zarr
   - geoviews
+  - pip:
+    - kubernetes
+    - git+https://github.com/dask/dask-kubernetes.git
