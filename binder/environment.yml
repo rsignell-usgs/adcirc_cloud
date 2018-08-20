@@ -5,6 +5,7 @@ dependencies:
   - xarray
   - distributed
   - dask-kubernetes
+  - kubernetes
   - gcsfs
   - zarr
   - geoviews
