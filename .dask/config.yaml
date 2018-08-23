@@ -16,7 +16,7 @@ kubernetes:
           - '2'
           - --no-bokeh
           - --memory-limit
-          - 6GB
+          - 7GB
           - --death-timeout
           - '60'
         image: WORKER_IMAGE
