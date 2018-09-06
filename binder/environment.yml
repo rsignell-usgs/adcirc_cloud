@@ -2,11 +2,15 @@ name: pangeo
 channels:
   - conda-forge
 dependencies:
+  - python=3.6
   - xarray
   - distributed
   - gcsfs
+  - s3fs
   - zarr
   - geoviews
+  - nbserverproxy
+  - ipywidgets
   - pip:
     - kubernetes
     - git+https://github.com/dask/dask-kubernetes.git
